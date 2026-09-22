@@ -1,2 +1,0 @@
-const WARDROBE=[['bowtie','Bow tie',15],['glasses','Bookworm',20],['baseball','Team Pip',25],['flowers','Flower crown',30],['scarf','Cozy scholar',35],['headphones','Study beats',40],['explorer','Explorer',50],['chef','Chef Pip',60],['graduation','Graduate',80],['scientist','Scientist',100],['superhero','Superhero',120],['wizard','Wizard',130],['crown','Royal brain',150],['astronaut','Astronaut',180],['champion','Champion',250]].map(([id,name,cost])=>({id,name,cost}));
-function outfitImage(id){return id==='classic'?'Assets/brain.png':`Assets/${id}.webp`}
